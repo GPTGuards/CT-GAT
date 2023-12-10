@@ -1,7 +1,11 @@
 # CT-GAT
 Code, data and model parameter of the EMNLP 2023 paper "**CT-GAT: Cross-Task Generative Adversarial Attack based on Transferability**"
 
+![image](https://github.com/GPTGuards/CT-GAT/assets/43531566/15ad5b63-8942-4fd3-b579-3b7bf110cd7a)
+
+
 This repository contains code modified from [Advbench](https://github.com/thunlp/Advbench), many thanks!
+
 
 ## Dependencies
 You can create the same running environment and install dependencies as us by using the following commands:
