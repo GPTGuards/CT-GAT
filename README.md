@@ -23,6 +23,17 @@ mkdir victim
 mkdir output
 ```
 
+## Directory Guide
+```
+root_directory
+    |- data    # contains data for CT-GAT model training and data sets for attack experiments
+    |- model   # CT-GAT model structure
+    |- scripts # shell script for training and evaluation
+    |- src     # codes for pre-training or attacking
+    |- utils   # some toolkits
+
+```
+
 ## Experiments
 In this step, you need to operate under the `CT-GAT` directory.
 
@@ -51,6 +62,10 @@ To conduct attack experiments via CT-GAT in our settings:
 ```
 bash scripts/CT-GAT.sh
 ```
+
+## performance
+![image](https://github.com/GPTGuards/CT-GAT/assets/43531566/56762649-f0c9-46d0-9b72-a5246273d7f4)
+
 
 ## Citation
 Please kindly cite our paper:
